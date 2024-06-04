@@ -56,6 +56,8 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+
+$ docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats    
 ```
 
 ## Support
